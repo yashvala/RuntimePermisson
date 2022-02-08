@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RuntimePermisson</string>
+    <string name="open_camara">open Camara</string>
+    <string name="open_gallery">open Gallery</string>
+    <string name="custom_dialoge">Custom Dialoge</string>
+    <string name="take_image">Take Image</string>
+    <string name="take">take</string>
+    <string name="take_from_camera">from Camera</string>
+    <string name="take_from_gallery">from Gallery</string>
+</resources>

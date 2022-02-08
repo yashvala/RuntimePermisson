@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="@dimen/_8sdp"
+    android:layout_gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:background="@color/colorBG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_marginTop="@dimen/_26sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/custom_dialoge"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_22ssp"
+                />
+
+            <TextView
+                android:id="@+id/tvInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_18ssp"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:text="@string/take_image"/>
+
+            <Button
+                android:id="@+id/btnFromCamara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_52sdp"
+                android:layout_marginTop="@dimen/_56sdp"
+                android:text="@string/take_from_camera"
+                android:padding="@dimen/_12sdp"
+                android:background="@drawable/btn_cust"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/camera"
+                android:drawablePadding="@dimen/_10sdp"
+                android:textSize="@dimen/_16ssp"/>
+
+            <Button
+                android:id="@+id/btnFromGallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_52sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:text="@string/take_from_gallery"
+                android:padding="@dimen/_12sdp"
+                android:drawableStart="@drawable/gallery"
+                android:layout_marginBottom="@dimen/_26sdp"
+                android:background="@drawable/btn_cust"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_16ssp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
